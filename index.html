@@ -50,30 +50,43 @@
 
     <!-- This is where the Advertising, Business, how it works, privicy, etc go. -->
     <footer>
+
+        <!-- This anchor represnts the Advertising link -->
+        <a id="advertising-link" href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a>
+
+        <!-- This anchor represents the Business link -->
+        <a id="business-link" href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
+
+        <!-- This anchor represents the How Search Works Link -->
+        <a id="works-link" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+
         <!-- this is the image of the green leaf -->
         <!-- 3/26/21 can't find image of the green leaf so im keeping it blank -->
         <img id="carbon-leaf">
         
         <!-- This anchor represents the words for the carbon neutal link -->
-        <a id="carbon-link">Carbon neutral since 2007</a>
-
-        <!-- This anchor represnts the Advertising link -->
-        <a id="advertising-link">Advertising</a>
-
-        <!-- This anchor represents the Business link -->
-        <a id="business-link">Business</a>
-
-        <!-- This anchor represents the How Search Works Link -->
-        <a id="works-link">How Search Works</a>
+        <a id="carbon-link" href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon neutral since 2007</a>
 
         <!-- This anchor represents the Privacy link  -->
-        <a id="privacy-link">Privacy</a>
+        <a id="privacy-link" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
 
         <!-- This anchor represents the Terms link -->
-        <a id="terms-link">Terms</a>
+        <a id="terms-link" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
 
         <!-- this anchor represents the Settings link -->
-        <a id="settings-link">Settings</a>
+        <!-- 3/27/21 turns out that the Settings link is  a dropdown menu. So I am mkaing a dropdown menu instead of a link -->
+        <div class="settings-dropdown" id="settings-dropdown">
+            <a id="settings-link" href="">Settings</a>
+            <div class="settings-dropdown-content" id="settings-dropdown-content">
+                <a id="search-settings-link">Search Settings</a>
+                <a id="advanced-search-link">Advanced Search</a>
+                <a id="search-personal-link">Your Data in Search</a>
+                <a id="search-history-link">Search History</a>
+                <a id="search-help-link">Search Help</a>
+                <a id="send-feedback-popup">Send Feedback</a>
+            </div>
+        </div>
+
 
     </footer>
 </div>
