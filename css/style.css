@@ -1,5 +1,9 @@
     /* Added Style class Top Nav Bar to cover the fonts of the Nav Bar */
     .top-nav-bar{
-        font-size: 20px;
+        font-size: 30px; 
+        color: red;
+    } 
+
+    h1 {
         color: red;
     }
