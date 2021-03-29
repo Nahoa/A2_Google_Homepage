@@ -2,3 +2,42 @@
     .top-nav-bar{
         font-size: 16px; 
     } 
+
+    /* This is the anchor they would click on to display the dropdown menu */
+    .settings-link {
+        padding: 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    /* Div that contains the Settings anchor */
+    .settings-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Div that contains the Content of the settings menu */
+    .settings-dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 100%;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .settings-dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .settings-dropdown-content a:hover {
+        background-color: teal;
+    }
+
+    .show { 
+        display: block;
+    }

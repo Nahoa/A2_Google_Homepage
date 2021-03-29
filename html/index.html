@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -52,10 +52,10 @@
 
                 <!-- This button is the I'm Feeling Lucky Search button without any functionality -->
                 <button id="lucky-search-bar">I'm Feeling Lucky</button>
-            </body>
-        </main>
+         
+                
 
-        <!-- This is where the Advertising, Business, how it works, privicy, etc go. -->
+                        <!-- This is where the Advertising, Business, how it works, privicy, etc go. -->
         <footer>
 
             <!-- This anchor represnts the Advertising link -->
@@ -89,33 +89,46 @@
             <div class="settings-dropdown" id="settings-dropdown">
 
                 <!-- This is the Settings option the user will see that they will click on to access the settings dropdown menu -->
-                <a id="settings-link" href="">Settings</a>
+                <a class="settings-link" onclick="displayContent()">Settings</a>
 
                 <!-- This div contains the drop down contents in the settings menu -->
-                <div class="settings-dropdown-content" id="settings-dropdown-content">
-                   
-                   <!-- This anchor contains the link to the Default search settings -->
-                    <a id="search-settings-link" href="https://www.google.com/preferences?hl=en&fg=1">Search Settings</a>
-                   
-                   <!-- This anchor contains the link to the Advanced Search settings -->
-                    <a id="advanced-search-link" href="https://www.google.com/advanced_search?hl=en&fg=1">Advanced Search</a>
-                    
+                <div class="settings-dropdown-content" id="dropdown-content">
+
+                    <!-- This anchor contains the link to the Default search settings -->
+                    <a id="search-settings-link" href="https://www.google.com/preferences?hl=en&fg=1">Search
+                        Settings</a>
+
+                    <!-- This anchor contains the link to the Advanced Search settings -->
+                    <a id="advanced-search-link" href="https://www.google.com/advanced_search?hl=en&fg=1">Advanced
+                        Search</a>
+
                     <!-- This anchor contains the link to the "Your Data in Search" browers for the user signed in-->
-                    <a id="search-personal-link" href="https://myactivity.google.com/privacyadvisor/search?utm_source=googlemenu&fg=1&pli=1">Your Data in Search</a>
-                                       
+                    <a id="search-personal-link"
+                        href="https://myactivity.google.com/privacyadvisor/search?utm_source=googlemenu&fg=1&pli=1">Your
+                        Data in Search</a>
+
                     <!-- This anchor contains the link to the Personal Search History of the user signed in -->
-                    <a id="search-history-link" href="https://myactivity.google.com/item?utm_source=google&hl=en&fg=1&restrict=search">Search History</a>
-                    
+                    <a id="search-history-link"
+                        href="https://myactivity.google.com/item?utm_source=google&hl=en&fg=1&restrict=search">Search
+                        History</a>
+
                     <!-- This anchor contains the link to the Search help option -->
-                    <a id="search-help-link" href="https://support.google.com/websearch/?visit_id=637524691112124900-3522198067&hl=en&rd=2#topic=3378866">Search Help</a>
-                    
+                    <a id="search-help-link"
+                        href="https://support.google.com/websearch/?visit_id=637524691112124900-3522198067&hl=en&rd=2#topic=3378866">Search
+                        Help</a>
+
                     <!-- This a is a feedback popup which as of 3/28/21 I don't know how to program as of yet -->
                     <a id="send-feedback-popup">Send Feedback</a>
                 </div>
             </div>
 
-
         </footer>
+            <script src="../javascript/script.js"></script>
+
+            </body>
+        </main>
+
+
     </div>
 </body>
 
