@@ -1,7 +1,50 @@
+    /* code for the HTML */
+    .html {
+        min-height: 100%; margin: 0; overflow: hidden;
+    }
+    /* Entire Web Page */
+    .webpage{
+        /* !background-color: yellow; */
+        width: 100%;
+        min-height: 100%;
+    }
+
+    /* The div that houses the content of everything */
+    .main-div{
+        /* background-color: green; */
+        box-shadow: 0px 5px 0px 0px teal;
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+/* Top Div of the Nav Bar */
+    .nav-bar {
+        box-shadow: 0px 5px 0px 0px red;
+        display: flex;
+        
+    }
+    
+    /* Trying to Style so that this stays on the top left part of the Nav Bar */
+    .left-nav {
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+        padding-top: 5px;
+    }
+
     /* Added Style class Top Nav Bar to cover the fonts of the Nav Bar */
     .top-nav-bar{
         font-size: 16px; 
     } 
+
+    /* Trying to Style os that this stays on the top right part of the Nav Bar */
+    .right-nav {
+        display: inline-block;
+        text-align: right;
+        width: 100%;
+    }
+    /* Div containing the Google logo, search bar, and search buttons */
 
     /* This is the anchor they would click on to display the dropdown menu */
     .settings-link {

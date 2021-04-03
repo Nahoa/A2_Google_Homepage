@@ -1,135 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html class="html" lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../css/style.css">
-</head>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-<body>
-    <div>
-        <!-- This is where the About, Store, Gmail, Images, drop down menu, and Profile Picture Go -->
-        <nav>
-            <!-- Added A which takes us to the About section that the Google Website would take us too. Forgot about the href -->
-            <a class="top-nav-bar" id="about"
-                href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+  <body class="webpage">
+    <div class="main-div">
+      <!-- This is where the About, Store, Gmail, Images, drop down menu, and Profile Picture Go -->
+      <nav class="nav-bar">
+        <div class="left-nav">
+          <!-- Added A which takes us to the About section that the Google Website would take us too. Forgot about the href -->
+          <a
+            class="top-nav-bar"
+            id="about"
+            href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+            >About</a
+          >
 
-            <!-- This A covers the link to the Google Store -->
-            <a class="top-nav-bar" id="store"
-                href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+          <!-- This A covers the link to the Google Store -->
+          <a
+            class="top-nav-bar"
+            id="store"
+            href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"
+            >Store</a
+          >
+        </div>
 
-            <!-- This A displays the words Gmail along with the link to sign into Gmail Page -->
-            <a class="top-nav-bar" id="gmail" href="https://gmail.com">Gmail</a>
+        <div class="right-nav">
+          <!-- This A displays the words Gmail along with the link to sign into Gmail Page -->
+          <a class="top-nav-bar" id="gmail" href="https://gmail.com">Gmail</a>
 
-            <!-- This A displays the word Images along with the link to the Google Images Page -->
-            <a class="top-nav-bar" id="images" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+          <!-- This A displays the word Images along with the link to the Google Images Page -->
+          <a
+            class="top-nav-bar"
+            id="images"
+            href="https://www.google.com/imghp?hl=en&ogbl"
+            >Images</a
+          >
 
-            <!-- This button represents the svc image that shows the 3x3 dotted grid -->
-            <button id="dropdown-menu">Dropdown Menu</button>
+          <!-- This button represents the svc image that shows the 3x3 dotted grid -->
+          <button id="dropdown-menu">Dropdown Menu</button>
 
-            <!-- This button represents the profile picture that shows the user who is currently logged in -->
-            <button id="profile-menu">Profile Menu</button>
+          <!-- This button represents the profile picture that shows the user who is currently logged in -->
+          <button id="profile-menu">Profile Menu</button>
+        </div>
+      </nav>
 
+      <!-- This is the Google Body where the Logo and Search bar with two Buttons go -->
+      <main>
+        <!-- Added Body tag so that i know where the body of the page is -->
 
-        </nav>
+        <body class="main-content">
+          <div>
+            <!-- This image is the Logo for the Google website -->
+            <img
+              class="Google Logo"
+              id="google-logo"
+              src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+              alt="This is the Normal Google Logo"
+            />
+          </div>
 
-        <!-- This is the Google Body where the Logo and Search bar with two Buttons go -->
-        <main>
-            <!-- Added Body tag so that i know where the body of the page is -->
+          <div class="search-bar-div">
+            <!-- This input is a Search bar where the user would enter in their search query -->
+            <input id="search-bar" placeholder="Search..." />
+          </div>
 
-            <body>
+          <div class="search-button-div">
+            <!-- This button is the Google Search buton without any functionality -->
+            <button id="google-search-bar">Google Search</button>
 
-                <!-- This image is the Logo for the Google website -->
-                <img class="Google Logo" id="google-logo"
-                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                    alt="This is the Normal Google Logo"></a>
+            <!-- This button is the I'm Feeling Lucky Search button without any functionality -->
+            <button id="lucky-search-bar">I'm Feeling Lucky</button>
+          </div>
 
-                <!-- This input is a Search bar where the user would enter in their search query -->
-                <input id="search-bar" placeholder="Search...">
-
-                <!-- This button is the Google Search buton without any functionality -->
-                <button id="google-search-bar">Google Search</button>
-
-                <!-- This button is the I'm Feeling Lucky Search button without any functionality -->
-                <button id="lucky-search-bar">I'm Feeling Lucky</button>
-         
-                
-
-                        <!-- This is where the Advertising, Business, how it works, privicy, etc go. -->
-        <footer>
-
+          <!-- This is where the Advertising, Business, how it works, privicy, etc go. -->
+          <footer>
             <!-- This anchor represnts the Advertising link -->
-            <a id="advertising-link"
-                href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a>
+            <a
+              id="advertising-link"
+              href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/"
+              >Advertising</a
+            >
 
             <!-- This anchor represents the Business link -->
-            <a id="business-link"
-                href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
+            <a
+              id="business-link"
+              href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/"
+              >Business</a
+            >
 
             <!-- This anchor represents the How Search Works Link -->
-            <a id="works-link" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+            <a
+              id="works-link"
+              href="https://www.google.com/search/howsearchworks/?fg=1"
+              >How Search Works</a
+            >
 
             <!-- this is the image of the green leaf -->
             <!-- 3/26/21 can't find image of the green leaf so im keeping it blank -->
-            <img id="carbon-leaf">
+            <img id="carbon-leaf" />
 
             <!-- This anchor represents the words for the carbon neutal link -->
-            <a id="carbon-link"
-                href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon
-                neutral since 2007</a>
+            <a
+              id="carbon-link"
+              href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="
+              >Carbon neutral since 2007</a
+            >
 
             <!-- This anchor represents the Privacy link  -->
-            <a id="privacy-link" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+            <a
+              id="privacy-link"
+              href="https://policies.google.com/privacy?hl=en&fg=1"
+              >Privacy</a
+            >
 
             <!-- This anchor represents the Terms link -->
-            <a id="terms-link" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+            <a
+              id="terms-link"
+              href="https://policies.google.com/terms?hl=en&fg=1"
+              >Terms</a
+            >
 
             <!-- this anchor represents the Settings link -->
             <!-- 3/27/21 turns out that the Settings link is  a dropdown menu. So I am mkaing a dropdown menu instead of a link -->
             <div class="settings-dropdown" id="settings-dropdown">
+              <!-- This is the Settings option the user will see that they will click on to access the settings dropdown menu -->
+              <a class="settings-link" onclick="displayContent()">Settings</a>
 
-                <!-- This is the Settings option the user will see that they will click on to access the settings dropdown menu -->
-                <a class="settings-link" onclick="displayContent()">Settings</a>
+              <!-- This div contains the drop down contents in the settings menu -->
+              <div class="settings-dropdown-content" id="dropdown-content">
+                <!-- This anchor contains the link to the Default search settings -->
+                <a
+                  id="search-settings-link"
+                  href="https://www.google.com/preferences?hl=en&fg=1"
+                  >Search Settings</a
+                >
 
-                <!-- This div contains the drop down contents in the settings menu -->
-                <div class="settings-dropdown-content" id="dropdown-content">
+                <!-- This anchor contains the link to the Advanced Search settings -->
+                <a
+                  id="advanced-search-link"
+                  href="https://www.google.com/advanced_search?hl=en&fg=1"
+                  >Advanced Search</a
+                >
 
-                    <!-- This anchor contains the link to the Default search settings -->
-                    <a id="search-settings-link" href="https://www.google.com/preferences?hl=en&fg=1">Search
-                        Settings</a>
+                <!-- This anchor contains the link to the "Your Data in Search" browers for the user signed in-->
+                <a
+                  id="search-personal-link"
+                  href="https://myactivity.google.com/privacyadvisor/search?utm_source=googlemenu&fg=1&pli=1"
+                  >Your Data in Search</a
+                >
 
-                    <!-- This anchor contains the link to the Advanced Search settings -->
-                    <a id="advanced-search-link" href="https://www.google.com/advanced_search?hl=en&fg=1">Advanced
-                        Search</a>
+                <!-- This anchor contains the link to the Personal Search History of the user signed in -->
+                <a
+                  id="search-history-link"
+                  href="https://myactivity.google.com/item?utm_source=google&hl=en&fg=1&restrict=search"
+                  >Search History</a
+                >
 
-                    <!-- This anchor contains the link to the "Your Data in Search" browers for the user signed in-->
-                    <a id="search-personal-link"
-                        href="https://myactivity.google.com/privacyadvisor/search?utm_source=googlemenu&fg=1&pli=1">Your
-                        Data in Search</a>
+                <!-- This anchor contains the link to the Search help option -->
+                <a
+                  id="search-help-link"
+                  href="https://support.google.com/websearch/?visit_id=637524691112124900-3522198067&hl=en&rd=2#topic=3378866"
+                  >Search Help</a
+                >
 
-                    <!-- This anchor contains the link to the Personal Search History of the user signed in -->
-                    <a id="search-history-link"
-                        href="https://myactivity.google.com/item?utm_source=google&hl=en&fg=1&restrict=search">Search
-                        History</a>
-
-                    <!-- This anchor contains the link to the Search help option -->
-                    <a id="search-help-link"
-                        href="https://support.google.com/websearch/?visit_id=637524691112124900-3522198067&hl=en&rd=2#topic=3378866">Search
-                        Help</a>
-
-                    <!-- This a is a feedback popup which as of 3/28/21 I don't know how to program as of yet -->
-                    <a id="send-feedback-popup">Send Feedback</a>
-                </div>
+                <!-- This a is a feedback popup which as of 3/28/21 I don't know how to program as of yet -->
+                <a id="send-feedback-popup">Send Feedback</a>
+              </div>
             </div>
-
-        </footer>
-            <script src="../javascript/script.js"></script>
-
-            </body>
-        </main>
-
-
+          </footer>
+          <script src="../javascript/script.js"></script>
+        </body>
+      </main>
     </div>
-</body>
-
+  </body>
 </html>
