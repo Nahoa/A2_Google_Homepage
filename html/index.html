@@ -28,7 +28,6 @@
         </div>
 
         <div class="right-nav">
-          
           <!-- This A displays the words Gmail along with the link to sign into Gmail Page -->
           <a class="top-nav-bar" id="gmail" href="https://gmail.com">Gmail</a>
 
@@ -42,7 +41,11 @@
 
           <!-- This button represents the svc image that shows the 3x3 dotted grid -->
           <a class="nav-button" id="dropdown-menu" role="button">
-            <svg class="dropdown-img" viewBox="0 0 24 24" style="vertical-align: middle;">
+            <svg
+              class="dropdown-img"
+              viewBox="0 0 24 24"
+              style="vertical-align: middle"
+            >
               <path
                 d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
               ></path>
@@ -59,7 +62,7 @@
         <!-- Added Body tag so that i know where the body of the page is -->
 
         <div class="main-content">
-          <div>
+          <div class="center-content-div">
             <!-- This image is the Logo for the Google website -->
             <img
               class="Google Logo"
@@ -75,15 +78,19 @@
           </div>
 
           <div class="search-button-div">
-            <!-- This button is the Google Search buton without any functionality -->
-            <button id="google-search-bar">Google Search</button>
+            <div class="google-search-button-div">
+              <!-- This button is the Google Search buton without any functionality -->
+              <button id="google-search-button">Google Search</button>
+            </div>
 
-            <!-- This button is the I'm Feeling Lucky Search button without any functionality -->
-            <button id="lucky-search-bar">I'm Feeling Lucky</button>
+            <div>
+              <!-- This button is the I'm Feeling Lucky Search button without any functionality -->
+              <button id="lucky-search-bar">I'm Feeling Lucky</button>
+            </div>
           </div>
 
           <!-- This is where the Advertising, Business, how it works, privicy, etc go. -->
-          <footer>
+          <footer class="footer">
             <!-- This anchor represnts the Advertising link -->
             <a
               id="advertising-link"

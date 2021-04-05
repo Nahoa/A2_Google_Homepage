@@ -33,7 +33,7 @@
   display: inline-block;
   text-align: left;
   width: 100%;
-  padding-top: 8px;
+  padding-top: 11px;
 }
 
 /* Added Style class Top Nav Bar to cover the fonts of the Nav Bar */
@@ -52,20 +52,58 @@
 
 /* Styling the display button to look like circles */
 .nav-button {
-    border-radius: 50%;
-    cursor: pointer;
-    height: 24px;
-    width: 24px;
-    padding: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  padding: 4px;
 }
 
 /* This allows the SVG image to look proportinate to the page */
-.dropdown-img{
-    width: 24px;
-    height: 24px;
+.dropdown-img {
+  width: 24px;
+  height: 24px;
 }
 /* Div containing the Google logo, search bar, and search buttons */
+.center-content-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-top: 14vmax;
+  padding-left: 8vmax;
+}
 
+.search-bar-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-left: 35px;
+  padding-bottom: 30px;
+  padding-top: 12px;
+  padding-left: 10vmax;
+}
+
+.search-button-div {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-left: 6vmax;
+}
+
+.google-search-button-div {
+  flex: 0.75;
+}
+
+.footer {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* This is the anchor they would click on to display the dropdown menu */
 .settings-link {
   padding: 16px;
@@ -103,4 +141,5 @@
 
 .show {
   display: block;
+  bottom: 100%;
 }
