@@ -6,7 +6,6 @@
 }
 /* Entire Web Page */
 .webpage {
-  /* !background-color: yellow; */
   width: 100%;
   min-height: 100%;
 }
@@ -22,7 +21,6 @@
 
 /* Top Div of the Nav Bar */
 .nav-bar {
-  box-shadow: 0px 5px 0px 0px red;
   display: flex;
   padding: 5px 5px 5px 5px;
   font-size: 14px;
@@ -74,6 +72,7 @@
   padding-left: 8vmax;
 }
 
+/* This Div controls where the search bar lines up in the middle of the google logo */
 .search-bar-div {
   display: block;
   margin-left: auto;
@@ -85,6 +84,7 @@
   padding-left: 10vmax;
 }
 
+/* This div is for the search buttons allowing them to be able to be put side by side */
 .search-button-div {
   display: flex;
   margin-left: auto;
@@ -93,10 +93,12 @@
   padding-left: 6vmax;
 }
 
+/* This div handles the spacing between the two div's by using the flex expression */
 .google-search-button-div {
   flex: 0.75;
 }
 
+/* This div allows the footer to be stuck to the bottom of the screen and in the center at all times */
 .footer {
   display: inline-block;
   position: absolute;
@@ -128,6 +130,7 @@
   z-index: 1;
 }
 
+/* This is for the dropdown menu that is in the list. It changes the color of the text along with the view of it all  */
 .settings-dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -135,10 +138,12 @@
   display: block;
 }
 
+/* When the A tags in the dropdown menu are hovered over they change the color to teal */
 .settings-dropdown-content a:hover {
   background-color: teal;
 }
 
+/* This allows the content menu to be shown when the A tag is clicked. This is called by the Javascript function displayContent() */
 .show {
   display: block;
   bottom: 100%;
